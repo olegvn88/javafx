@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="311.0" prefWidth="515.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Button fx:id="button" alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="1000.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#clickOnButton" prefHeight="25.0" prefWidth="104.0" text="Ok" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="8" />
+        <Label id="dicesLabel" fx:id="dicesLabel" layoutX="126.0" layoutY="92.0" minHeight="16" minWidth="69" prefHeight="27.0" prefWidth="190.0" text="Dices" GridPane.rowIndex="3" />
+        <TextField id="dicesInput" fx:id="dicesInput" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="185.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+        <Label id="facesLabel" fx:id="facesLabel" minHeight="16" minWidth="69" prefHeight="26.0" prefWidth="190.0" text="Faces" />
+        <TextField id="facesInput" fx:id="facesInput" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="185.0" GridPane.columnIndex="1" />
+        <TextField id="rollsInput" fx:id="rollsInput" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="185.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+        <Label id="rollsLabel" fx:id="rollsLabel" minHeight="16" minWidth="69" prefHeight="27.0" prefWidth="190.0" text="Dices" GridPane.rowIndex="6" />
+      <Label id="resultValue" fx:id="resultValue" prefHeight="17.0" prefWidth="108.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="12" />
+      <Label id="resultLabel" fx:id="resultLabel" prefHeight="17.0" prefWidth="108.0" text="Result" GridPane.rowIndex="12" />
+    </children>
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+      <RowConstraints />
+    </rowConstraints>
+</GridPane>
